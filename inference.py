@@ -9,7 +9,7 @@ def one_sample_ttest(data, alpha = 0.05):
     return:  pvalue, test-statistic
     """
     #function
-    return 10
+    return 50
 
 def one_sample_chi2test(data, alpha = 0.05):
     """
