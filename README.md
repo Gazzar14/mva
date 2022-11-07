@@ -1,8 +1,8 @@
 # mva
 Multivariate Analysis Library
 
-Multivariate Infrence Tests
-Principle components Analysis
-Factor Analysis
-K-means 
-MANOVA
+1. Multivariate Infrence Tests
+2. Principle components Analysis
+3. Factor Analysis
+4. K-means 
+5. MANOVA
