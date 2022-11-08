@@ -39,7 +39,7 @@ def hotteling1sample_test(data, MU):
     p = data.shape[1]  #number of variables
     df = n - p  #degrees of freedom
     T2 = distance(data, MU, n) #Hotelling's T
-    F = ((n - p)/(n-1)*p) * T2  #test statistic
+    F = ((n - p)/((n-1)*p)) * T2  #test statistic
     pval = f.sf(F, p, df)   #pval
 
     return T2, pval
